@@ -1,0 +1,77 @@
+        
+* {
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+.m {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 78vh;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+.header {
+    padding: 5px;
+    text-align: center;
+    background: #1abc9c;
+    display: flex;
+    justify-content: space-between;
+}
+.header img{
+    width:80px;
+    height: 80px;
+    clip-path: circle();
+    margin-left: 50px;
+}
+.header h1{
+    color: white;
+    font-size:40px;
+    font-family: "Comic Sans MS", "Comic Sans";
+    margin-left: 10px;
+    margin-right: 20px;
+    padding-top: 15px;
+}
+.aa {
+    display: block;
+    background:#00A9D4;
+    color:  #fff;
+    padding: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 320px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+        }
+.aa:hover {
+    background: #10839f;
+}
+.a1{
+    color:  #fff;
+    background-image: linear-gradient(to right top, #161616, #191919, #1b1b1b, #1e1e1e, #212121);
+    padding: 0px;
+    margin-top: 0px;
+    cursor: pointer;
+    text-decoration:solid;
+    width: 70px;
+    border-radius:0px;
+    font-size: 17px;
+    text-align: center;
+}
+.Sub2 {
+    color: #888;padding: 15px;
+    margin-top: -100px;
+}
+.sub{
+    color: #161616;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+footer{
+    width: 100%;
+    min-height: 20px;
+    max-height: auto;
+    background-image: linear-gradient(to right top, #161616, #191919, #1b1b1b, #1e1e1e, #212121);
+    clear: both;
+    text-align: center;
+}
