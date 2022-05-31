@@ -71,23 +71,40 @@ i {
     font-size: 35px;
     margin: 10px;
 }
-@media screen and (max-width:640px) {
+
+@media only screen 
+and (max-width:360px) {
    
     .container{
-        width:90%;
+        width:40%;
     }
-
-    h1 {
-    font-size: 50px;
+    p{
+        font-weight: bolder;
     }
-
-    i {
-    font-size: 25px;
-    margin: 10px;
-}
-}
-@media screen and (max-width:400px) {
+    .to{
+        align-items: center;
+    }
     h1 {
-    font-size: 30px;
+        font-size: 35px; 
+        text-align: center;
+        margin-left: 10px;
+        font-weight: 900;
+    }
+    h3{
+        font-size:10px;
+        display: inline;
+        clear: both;
+    }
+    a {
+        display: inline;
+        font-size: 5px;
+        margin-left: 15px;
+        align-items: center;
+        justify-content: baseline;
+    }
+    .social-icons {
+        display: inline;
+        margin-top: 250px;
+        align-self: center;
     }
 }
