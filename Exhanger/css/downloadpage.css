@@ -91,7 +91,7 @@ and (min-width : 321px) {
 and (max-width : 360px) {
 /* Styles */
     .m {
-        height: 80vh;
+        height: 85vh;
         width: auto;
     }
     .header img{
@@ -110,14 +110,14 @@ and (max-width : 360px) {
         width: auto;
         border-radius: 1px;
         font-size: 15px;
-        margin-top: -50px;
+        margin-top: -80px;
     }
     footer{
         width: auto;
         min-height: 5px;
         clear:initial;
         text-align: auto;
-        margin-top: -20px;
+        margin-top: -30px;
     }
     .Sub2 {
         color: #888;padding: 15px;
@@ -125,6 +125,6 @@ and (max-width : 360px) {
     }
     .sub{
         color: #161616;
-        margin: -60px;
+        margin: -80px;
     }
 }
