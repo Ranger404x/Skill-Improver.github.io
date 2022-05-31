@@ -110,5 +110,21 @@ and (max-width : 360px) {
         width: auto;
         border-radius: 1px;
         font-size: 15px;
+        margin-top: -50px;
+    }
+    footer{
+        width: auto;
+        min-height: 5px;
+        clear:initial;
+        text-align: auto;
+        margin-top: -20px;
+    }
+    .Sub2 {
+        color: #888;padding: 15px;
+        margin:-100px;
+    }
+    .sub{
+        color: #161616;
+        margin: -60px;
     }
 }
