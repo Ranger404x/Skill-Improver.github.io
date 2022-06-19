@@ -1,17 +1,21 @@
         
 * {
-    padding: 0;margin: 0;box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-height: fit-content;
 }
 .m {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    height: 78vh;
+    justify-content: space-evenly;
+    height: 65vh;
+    max-height: fit-content;
     flex-direction: column;
     font-family: sans-serif;
 }
 .header {
-    padding: 5px;
+    padding: 4px;
     text-align: center;
     background: #1abc9c;
     display: flex;
@@ -29,13 +33,13 @@
     font-family: "Comic Sans MS", "Comic Sans";
     margin-left: 10px;
     margin-right: 20px;
-    padding-top: 15px;
+    padding-top: 18px;
 }
 .aa {
     display: block;
     background:#00A9D4;
     color:  #fff;
-    padding: 15px;
+    padding:8px;
     cursor: pointer;
     text-decoration: none;
     width: 320px;
@@ -59,8 +63,9 @@
     text-align: center;
 }
 .Sub2 {
-    color: #888;padding: 15px;
-    margin-top: -100px;
+    color: #888;
+    padding: 5px;
+    justify-content: space-evenly;
 }
 .sub{
     color: #161616;
@@ -130,25 +135,28 @@ and (max-width : 360px) {
         margin-right: 15px;
         padding-top: 8px;
     }
+    .m{
+        justify-content: space-evenly;
+    }
     .aa {
         padding-left: 5px;
         width: auto;
         border-radius: 4px;
         font-size: 15px;
-        margin-top: -80px;
+        justify-content:  space-evenly;
     }
     footer{
         width: auto;
         min-height: 5px;
         clear:initial;
         text-align: auto;
-        margin-top: -30px;
+        justify-content:  space-evenly;
     }
     .Sub2 {
-        margin:-100px;
+        justify-content:  space-evenly;
     }
     .sub{
-        margin: -80px;
+        justify-content:  space-evenly;
     }
 }
 @media only screen
